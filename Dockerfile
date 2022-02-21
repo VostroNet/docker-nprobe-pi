@@ -9,3 +9,5 @@ RUN apt update && \
   apt-get update && \
   mkdir -p /etc/init.d/ && touch /etc/init.d/nprobe && chmod +x /etc/init.d/nprobe && \
   apt-get install nprobe -y
+
+CMD ["nprobe"]
