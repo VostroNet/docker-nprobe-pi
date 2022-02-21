@@ -5,7 +5,7 @@ on:
 
 env:
   REGISTRY: ghcr.io
-  IMAGE_NAME: nprobe-pi
+  IMAGE_NAME:  vostronet/nprobe-pi
 jobs:
   buildx:
     runs-on: ubuntu-latest
